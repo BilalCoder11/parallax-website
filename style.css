@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    line-height: 1.4;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden}
+ul {
+display: flex;
+gap: 30px;
+text-align: center;
+justify-content: center;
+}
+li{
+    transform: 1.5;
+    transition: 0.6 ease-in-out;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ li a:hover{
+    color:red;
+    transform: 1.5;
+    transition: 0.6 ease-in-out;
+    border-bottom: 5px solid white;
+ }
+ .image , .nature , .deep , .img-last{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ensure the image covers the entire container */
+    color: white; /* Set text color to contrast with the image */
+    background-attachment: fixed;
+ }
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://images.pexels.com/photos/1766838/pexels-photo-1766838.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 100%; /* Set your desired height, using viewport height (vh) for full height */
+    background-size: 100% 100%; /* Ensure the image covers the entire container */
+    color: white; /* Set text color to contrast with the image */
+}
+.text-1{
+    box-shadow: 5px 5px 5px rgb(228, 196, 255);
+    width: 400px;
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+.text-1 h1{
+    color: white;
+}
+.sec-2{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+color: white;
+}
+.text-2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 1100px;
+}
+.text-2 h2{
+    font-size: 40px;
+    padding-top: 15px;
+}
+.text-2 p{
+    padding: 20px 20px;
+    font-size: 25px;
+    font-weight: 300;
+}
+ p{
+    text-align: justify;
+}
+.nature{
+    background-image: url(https://images.pexels.com/photos/610293/pexels-photo-610293.jpeg?auto=compress&cs=tinysrgb&w=600);min-height: 400px;
+}
+.nat-1 h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+.nature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.jpg-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.nat-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+.nat-2 h2{
+    font-size: 45px;
+    color: white;
+    padding-top: 40px;
+ }
+ .nat-2 p{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    padding: 35px;
+ }
+ .deep{
+    background-image: url(https://images.pexels.com/photos/3782463/pexels-photo-3782463.jpeg?auto=compress&cs=tinysrgb&w=600);
+    min-height: 500px;
+ }
+ .deep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .kkk h1{
+    font-size: 45px;
+ }
+ .jpg-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.767);
+}
+.nat-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+}
+.nat-3 h2{
+    font-size: 45px;
+    color: white;
+    padding-top: 40px;
+ }
+ .nat-3 p{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    padding: 35px;
+ }
+ .img-last{
+    background-image: url(https://media.istockphoto.com/id/155383361/photo/epic-climber.jpg?s=2048x2048&w=is&k=20&c=-TmC1upllN0HFSWd1_YPJiGYMMwmA1xuusyWHgI1z4A=);
+    min-height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .img-last h1{
+    background-color: black;
+    font-size:32px;
+    padding: 10px 65px;
+ }
